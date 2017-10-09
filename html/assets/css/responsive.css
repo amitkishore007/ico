@@ -1,0 +1,60 @@
+        /* Medium Layout: 1280px. */
+        
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            .header-bg-image img {
+                max-width: inherit;
+            }
+        }
+        /* Tablet Layout: 768px. */
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .header-bg-image img {
+                max-width: inherit;
+            }
+        }
+        /* Mobile Layout: 320px. */
+        
+        @media only screen and (max-width: 767px) {
+            .header-bg-slider img {
+                max-width: inherit;
+            }
+            .xs-center,
+            .xs-center .text-right {
+                text-align: center;
+            }
+            #mainmenu {
+                border-top: none;
+                text-align: center;
+                background-color: #ec082b;
+            }
+            .navbar-header button.navbar-toggle {
+                border-color: #ffffff;
+                border-radius: 2px;
+                -webkit-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+            }
+            .navbar-header button.navbar-toggle:hover,
+            .navbar-header button.navbar-toggle:focus {
+                background-color: #ffffff;
+            }
+            .navbar-header button.navbar-toggle .icon-bar,
+            .navbar-header button.navbar-toggle .icon-bar {
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+            }
+            .navbar-header button.navbar-toggle:hover .icon-bar,
+            .navbar-header button.navbar-toggle:focus .icon-bar {
+                background-color: #ec082b;
+            }
+            .work-content-grid {
+                min-height: 400px;
+                background-color: #fbf9fa;
+            }
+        }
+        /* Wide Mobile Layout: 480px. */
+        
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+            .work-content-grid {
+                min-height: inherit;
+            }
+}
